@@ -35,6 +35,7 @@ body {
   --font-circular-web: "circular-web", sans-serif;
   --font-zentry: "zentry", sans-serif;
   --font-robert-medium: "robert-medium", sans-serif;
+  --font-robert-regular: "robert-regular", sans-serif;
 
   --color-yellow-100: #8e983f;
   --color-yellow-300: #edff66;
@@ -211,7 +212,7 @@ body {
   }
 
   .hero-heading {
-    @apply uppercase font-zentry font-black text-5xl sm:right-10 sm:text-7xl md:text-9xl lg:text-[12rem];
+    @apply uppercase font-zentry font-black text-5xl sm:right-10 sm:text-7xl md:text-7xl lg:text-[8rem];
   }
 
   .about-subtext {
